@@ -1,5 +1,5 @@
 {% set name = "matrepr" %}
-{% set version = "0.7.4" %}
+{% set version = "0.7.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/matrepr-{{ version }}.tar.gz
-  sha256: 57f5099713710e8e0dbe9573ad5561ea6e9ce251831851f115c95bfbe781eb34
+  sha256: e68e2b601a01ae4aab866da2062cbfd4dc1754c2bc0013d78ddf9de7bd84a48f
 
 build:
   noarch: python
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/alugowski/matrepr
-  summary: Sparse matrix string, HTML, and LaTeX rendering with Jupyter integration.
+  summary: Format matrices to HTML, string, and LaTeX, with Jupyter integration.
   license: BSD-2-Clause
   license_file: LICENSE.txt
 
