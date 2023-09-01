@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/alugowski/matrepr
-  summary: Sparse matrix string, HTML, and LaTeX rendering with Jupyter integration.
+  summary: Format matrices to HTML, string, and LaTeX, with Jupyter integration.
   license: BSD-2-Clause
   license_file: LICENSE.txt
 
