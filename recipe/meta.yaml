@@ -35,6 +35,8 @@ test:
     - scipy
     - python-graphblas
     - sparse
+    - pytorch
+    - tensorflow-base
   source_files:
     - tests/
 
