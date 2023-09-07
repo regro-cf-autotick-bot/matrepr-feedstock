@@ -7,7 +7,7 @@ Home: https://github.com/alugowski/matrepr
 
 Package license: BSD-2-Clause
 
-Summary: Sparse matrix string, HTML, and LaTeX rendering with Jupyter integration.
+Summary: Format matrices to HTML, string, and LaTeX, with Jupyter integration.
 
 Current build status
 ====================
