@@ -1,5 +1,5 @@
 {% set name = "matrepr" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/matrepr-{{ version }}.tar.gz
-  sha256: 971fa03d05ea672a456806c4c8385491570665b3e206356a17577ed9ec42fa12
+  sha256: 13f91ef4e09f0d09ac72c96895ebcd6192364b0af0b34ff49d3bd52ea6f5c193
 
 build:
   noarch: python
