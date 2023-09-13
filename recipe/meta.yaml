@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/alugowski/matrepr
-  summary: Format matrices to HTML, string, and LaTeX, with Jupyter integration.
+  summary: Format matrices and tensors to HTML, string, and LaTeX, with Jupyter integration.
   license: BSD-2-Clause
   license_file: LICENSE.txt
 
