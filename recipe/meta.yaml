@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/matrepr-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/matrepr-{{ version }}.tar.gz
   sha256: ceba61a1b0529b6229ddf4b5a0102a86e6b6e60d4306ed6a2fe5fa5459e8ffbf
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - tabulate
 
 test:
@@ -37,6 +37,7 @@ test:
     - sparse
     - pytorch
     - tensorflow
+    - python {{ python_min }}
   source_files:
     - tests/
 
